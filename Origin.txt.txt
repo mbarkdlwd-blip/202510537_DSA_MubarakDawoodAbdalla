@@ -1,0 +1,127 @@
+C++ PROGRAMMING NOTES
+
+========================================
+CHAPTER 1: ORIGIN OF C++
+========================================
+
+C++ was developed by Bjarne Stroustrup in 1979 at Bell Labs.
+
+The language started as an extension of the C language and was originally called "C with Classes".
+
+Its goal was to add object-oriented programming features while maintaining the efficiency and performance of C.
+
+
+========================================
+CHAPTER 2: DEVELOPMENT OF C++
+========================================
+
+C++ introduced many important programming concepts:
+
+• Classes
+• Objects
+• Encapsulation
+• Inheritance
+• Polymorphism
+
+These features made software development easier, more organized, and reusable.
+
+Over time, C++ became one of the most popular programming languages in the world.
+
+
+========================================
+CHAPTER 3: EVOLUTION OF C++
+========================================
+
+Evolution of programming languages leading to C++:
+
+Fortran
+  |
+Algol 60
+  |
+C
+  |
+C with Classes
+  |
+C++
+
+Modern C++ standards:
+
+• C++98
+• C++03
+• C++11
+• C++14
+• C++17
+• C++20
+• C++23
+
+Each version introduced new features and improvements.
+
+
+========================================
+DATA TYPES IN C++
+========================================
+
+int      - Integer numbers
+float    - Decimal numbers
+double   - Double precision decimal numbers
+char     - Single character
+bool     - True or False values
+string   - Text data
+
+Data types define the kind of information that can be stored in variables.
+
+
+========================================
+CONTROL FLOW IN C++
+========================================
+
+1. if statement
+2. if-else statement
+3. nested if statement
+4. switch statement
+
+These statements help make decisions during program execution.
+
+
+========================================
+LOOPS IN C++
+========================================
+
+1. for loop
+2. while loop
+3. do-while loop
+
+Loops reduce code repetition and make programs more efficient.
+
+
+========================================
+ARRAYS IN C++
+========================================
+
+Example:
+
+int numbers[5] = {10, 20, 30, 40, 50};
+
+Arrays are accessed using indexes starting from zero.
+
+
+========================================
+FILE STREAMS IN C++
+========================================
+
+ifstream  - Read data from a file
+ofstream  - Write data to a file
+fstream   - Read and write data
+
+Example:
+
+ifstream file("data.txt");
+
+string line;
+
+while(getline(file, line))
+{
+    cout << line << endl;
+}
+
+file.close();
